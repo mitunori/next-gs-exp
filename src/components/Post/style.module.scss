@@ -1,0 +1,24 @@
+.post {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px;
+  box-sizing: border-box;
+
+  img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    background: #eee;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    display: block;
+    margin: 0 auto 30px;
+  }
+
+  p {
+    margin: 20px 0 0;
+    font-size: 16px;
+    text-align: center;
+  }
+}

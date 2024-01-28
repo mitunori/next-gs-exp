@@ -1,0 +1,41 @@
+.header {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10px;
+
+  &__title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  &__menu {
+    display: flex;
+
+    li {
+      margin: 0 10px;
+      list-style-type: none;
+
+      a {
+        font-size: 16px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #000;
+
+        &:hover {
+          opacity: 0.6;
+        }
+      }
+    }
+  }
+}
+// scssを使わない場合は同じこと何度も
+// 書かないといけない
+// .header__title{
+
+// }
+
+// .header__title:hover{
+
+// }
